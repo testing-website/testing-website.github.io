@@ -541,7 +541,22 @@ body.is-preload #sidebar nav ul li {
    }
 }
 
+#about {
+    margin: 0 19em;
+    padding: 5em 5em 3em 5em;
+    max-width: 100%;
+    width: 90%;
+}
+
 .dark {
     background: black;
     color: white;
+}
+
+.sectiontitle {
+    font-size: 2.75em;
+}
+
+.sectioncontent {
+    font-size: 1.25em;
 }
