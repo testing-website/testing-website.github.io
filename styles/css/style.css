@@ -1,13 +1,13 @@
 @font-face { 
-    font-family: Aquire; src: url('Aquire.otf'); 
+    font-family: Aquire; src: url('../fonts/Aquire.otf'); 
 }
 
 @font-face {
-    font-family: AquireBold; src: url('AquireBold.otf');
+    font-family: AquireBold; src: url('../fonts/AquireBold.otf');
 }
 
 @font-face {
-    font-family: AquireLight; src: url('AquireLight.otf');
+    font-family: AquireLight; src: url('../fonts/AquireLight.otf');
 }
 
 * {
