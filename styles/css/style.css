@@ -618,3 +618,11 @@ body.is-preload #sidebar nav ul li {
 .a {
     background-color: white;
 }
+
+footer {
+    padding-left: 15%;
+    color:rgba(255, 255, 255, 0.35);
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+}
