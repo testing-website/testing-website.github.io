@@ -563,3 +563,58 @@ body.is-preload #sidebar nav ul li {
 .sectioncontent {
     font-size: 1.25em;
 }
+
+.features {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-radius: 0.25em;
+}
+
+.features section:nth-child(-n+2) {
+    border-top-width: 0;
+}
+
+.features section {
+    padding: 3.5em 3em 1em 7em;
+    width: 50%;
+    position: relative;
+}
+
+.features section .icon {
+    -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+    -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+    -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+        transition-delay: 0s, 0s;
+    -moz-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    position: absolute;
+    left: 3em;
+    top: 3em;
+    opacity: 1;
+    text-decoration: none;
+    border-bottom: none;
+    width: 2.5em;
+    height: 2.5em;
+    display: block;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 2.5em;
+    margin: 0 0 1.3em 0;
+}
+
+.a {
+    background-color: white;
+}
